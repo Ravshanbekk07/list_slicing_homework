@@ -8,5 +8,5 @@ def main(numbers):
     """
     
     return numbers[0::2]
-v = main([1, 2, 3, 4, 5])
+v = main([0, 1, 2, 3, 4, 5])
 print(v)
