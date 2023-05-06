@@ -6,4 +6,8 @@ def main(list1):
     Returns:
         list: return answer.
     """
-    return
+    list1.reverse()
+    return list1
+
+v = main([1, 2, 3, 4, 5])
+print(v)
