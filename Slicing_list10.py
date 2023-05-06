@@ -7,4 +7,8 @@ def main(list1,n):
     Returns:
         list: return answer.
     """
-    return
+    list1.reverse()
+    return  list1[:n]
+
+v = main(['a', 'b', 'c', 'd', 'e', 'f'],3)
+print(v)
